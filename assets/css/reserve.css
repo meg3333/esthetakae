@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  background-color: #F6F4EE;
+}
+/* タイトル */
+.main h1 {
+  font-size: 2.4rem;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+@media(min-width: 960px) {
+  .main h1 {
+    font-size: 3.6rem;
+    margin-top: 100px;
+  }
+}
+/* 内容 */
+.reserve-content {
+  background-color: #fff;
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+.reserve-content h2 {
+  font-size: 1.4rem;
+  font-weight: 100;
+  padding-top: 50px;
+}
+.pre::after {
+  content: "\A";
+  white-space: pre;
+}
+.reserve-content h3 {
+  font-size: 1.2rem;
+  font-weight: 100;
+  padding-top: 50px;
+}
+.reserve-content h4 {
+  font-size: 1.2rem;
+  font-weight: 100;
+  padding-top: 30px;
+  letter-spacing: 0.1rem;
+}
+.kigou::before {
+  content: "■";
+  color: #F5F5F5;
+  font-size: 1.2rem;
+}
+.kigou::after {
+  content: "■";
+  color: #F5F5F5;
+  font-size: 1.2rem;
+}
+.section-about__border {
+  border-bottom: dotted #D9D9D9 1px;
+  padding-bottom: 50px;
+  width: 80%;
+  margin: auto;
+}
+.reserve-content img {
+  width: 25%;
+  height: 25%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+@media(min-width: 960px) {
+.reserve-content {
+  width: 50%;
+  margin-top: 80px;
+}
+.reserve-content h2 {
+  font-size: 2.2rem;
+  line-height: 35px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.reserve-content h3 {
+  font-size: 2rem;
+  padding-top: 80px;
+}
+.reserve-content h4 {
+  font-size: 1.8rem;
+  padding-top: 50px;
+}
+.kigou::before {
+  font-size: 1.6rem;
+}
+.kigou::after {
+  font-size: 1.6rem;
+}
+.section-about__border {
+  padding-bottom: 80px;
+  width: 65%;
+}
+.reserve-content img {
+  width: 20%;
+  height: 20%;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}  
+  
+  
+  
+  
+  
+  
+  
+}

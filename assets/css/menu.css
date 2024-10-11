@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  background-color: #F6F4EE;
+}
+/*タイトル*/
+.menu-top h1 {
+  font-size: 2.4rem;
+  font-weight: 100;
+  margin-top: 10px;
+}
+.menu-top img {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 40px;
+}
+.menu-top h2 {
+  font-size: 1.3rem;
+  font-weight: 100;
+  margin-top: 40px;
+  line-height: 25px;
+  padding-bottom: 30px;
+}
+.pre::after {
+  content: "\A";
+  white-space: pre;
+}
+@media(min-width: 960px) {
+  .menu-top h1 {
+    font-size: 3.6rem;
+    margin-top: 100px;
+  }
+  .menu-top img {
+    width: 940px;
+    height: 350px;
+    object-fit: cover;
+    margin-top: 80px;
+  }
+  .menu-top h2 {
+    font-size: 2.8rem;
+    line-height: 60px;
+    margin: 100px auto 50px;
+  }
+}
+/*メニュー*/
+.menu-menu h1 {
+  font-size: 1.6rem;
+  font-weight: 100;
+  margin-top: 50px;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-menu h2 {
+  font-size: 1.4rem;
+  font-weight: 100;
+  margin-top: 20px;
+}
+.menu-menu h3 {
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin-top: 20px;
+}
+.menu-menu p {
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: 7px;
+}
+.border {
+  position: relative;
+}
+.border:before, .border:after {
+  position: absolute;
+  top: 10px;
+  width: 5rem;
+  height: 1px;
+  background-color: #543404;
+  content: '';
+}
+.border:before {
+  left: 0;
+}
+.border:after {
+  right: 0;
+}
+@media(min-width: 960px) {
+  .menu-menu h1 {
+    font-size: 3rem;
+    padding-top: 100px;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .border {
+    position: relative;
+  }
+  .border:before, .border:after {
+    position: absolute;
+    top: 110px;
+    width: 23rem;
+    height: 1px;
+    background-color: #543404;
+    content: '';
+  }
+  .border:before {
+    left: 0;
+  }
+  .border:after {
+    right: 0;
+  }
+  .menu-menu h2 {
+    font-size: 2.4rem;
+    padding-top: 40px;
+    padding-right: 30px;
+  }
+  .menu-menu h3 {
+    font-size: 2.2rem;
+    padding-top: 50px;
+  }
+  .menu-menu p {
+    font-size: 2rem;
+    padding-top: 20px;
+  }
+}
+/*パック*/
+.menu-pack {
+  background-color: #fff;
+  width: 95%;
+  height: auto;
+  margin: 80px auto 50px;
+}
+.menu-pack h1 {
+  font-size: 1.6rem;
+  font-weight: 100;
+  padding-top: 30px;
+}
+.menu-pack h2 {
+  font-size: 1.2rem;
+  font-weight: 100;
+  padding-top: 10px;
+}
+.menu-pack__container1 {
+  display: flex;
+  justify-content: space-around; /* 画像の間に均等に余白を設定 */
+}
+.menu-pack__container1 img {
+  width: 30%; /* 画像が3つ並ぶように設定 */
+  height: auto;
+  padding-top: 20px;
+}
+.menu-pack__container2 {
+  display: flex;
+  justify-content: center;
+}
+.menu-pack__container2 img {
+  width: 30%; /* 画像が3つ並ぶように設定 */
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+@media(min-width: 960px) {
+  .menu-pack {
+    width: 50%;
+    margin-top: 150px;
+  }
+  .menu-pack h1 {
+    font-size: 2.4rem;
+    padding-top: 70px;
+  }
+  .menu-pack h2 {
+    font-size: 1.6rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .menu-pack__container2 img {
+    padding-bottom: 60px;
+  }
+}
+/*予約*/
+.section-reserve-content-wrapper {
+  width: 100%;
+  height: 130px;
+  position: relative;
+  margin-top: 70px;
+}
+.section-reserve img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+.section-reserve h1 {
+  font-size: 1.2rem;
+  font-weight: 100;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+}
+.section-reserve h2 {
+  font-size: 1.8rem;
+  font-weight: 100;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+}
+.section-reserve-content-wrapper a {
+  text-decoration: none;
+  white-space: nowrap;
+  color: #333;
+}
+@media(min-width: 960px) {
+  .section-reserve-content-wrapper {
+    width: 100%;
+    height: 270px;
+    position: relative;
+    margin-top: 130px;
+  }
+  .section-reserve img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+  }
+  .section-reserve h1 {
+    font-size: 2.4rem;
+  }
+  .section-reserve h2 {
+    font-size: 3.6rem;
+  }
+}
